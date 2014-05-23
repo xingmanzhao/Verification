@@ -1,0 +1,46 @@
+05-18 21:28:30.500 I/ActivityManager(  531): START {cmp=com.skype.raider/com.skype.android.app.signin.LandingPageActivity u=0} from pid 21848
+\d{1,2}-\d{1,2}\s(\d{1,2}:){2}\d{1,2}.\d{1,3}\sI/ActivityManager\(\s*\d+\):\sSTART\s\{cmp=(?<pkg>(\w+\.)*\w+)/(?<class>(\w+\.)*\w+)\su=\d+\}\sfrom\spid\s\d{1,}
+
+05-18 21:28:31.970 I/ActivityManager(  531): Displayed com.skype.raider/com.skype.android.app.signin.LandingPageActivity: +1s223ms
+(?<datetime>\d{1,2}-\d{1,2}\s(\d{1,2}:){2}\d{1,2}.\d{1,3})\sI/ActivityManager\(\s*\d+\):\s(?<Motino>Displayed)\s(?<cmp>(\w+\.)*\w+/((\w+\.)*)?\.?\w+):\s\+(?<minutes>\d+min)?(?<seconds>\d+s)?(?<milionseconds>\d+ms)?
+
+05-18 21:28:43.090 I/ActivityManager(  531): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.deskclock cmp=com.android.deskclock/.DeskClock u=0} from pid 810
+\d{1,2}-\d{1,2}\s(\d{1,2}:){2}\d{1,2}.\d{1,3}\sI/ActivityManager\(\s*\d+\):\sSTART\s\{(act=(?<act>(\w+\.)*\w+))?\s(cat=\[(?<cat>(\w+\.)*\w+)\])?\s(flg=(?<flg>\w+))?\s(pkg=(?<pkg>(\w+\.)*\w+))?\scmp=(?<pkg>(\w+\.)*\w+)/(?<class>((\w+\.)*)?(\.)?\w+)\su=\d+\}\sfrom\spid\s\d+
+\d{1,2}-\d{1,2}\s(\d{1,2}:){2}\d{1,2}.\d{1,3}\sI/ActivityManager\(\s*\d+\):\sSTART\s\{(act=(?<act>(\w+\.)*\w+))?\s(cat=\[(?<cat>(\w+\.)*\w+)\])?\s(flg=(?<flg>\w+))?\s(pkg=(?<pkg>(\w+\.)*\w+))?\scmp=(?<pkg>(\w+\.)*\w+)/(?<class>[((\w+\.)*)(\.)]\w+)\su=\d+\}\sfrom\spid\s\d+
+
+05-18 21:28:45.050 I/ActivityManager(  531): Displayed com.android.deskclock/.DeskClock: +1s719ms
+(?<datetime>\d{1,2}-\d{1,2}\s(\d{1,2}:){2}\d{1,2}.\d{1,3})\sI/ActivityManager\(\s*\d+\):\s(?<Motino>Displayed)\s(?<cmp>(\w+\.)*\w+/((\w+\.)*)?\.?\w+):\s\+(?<minutes>\d+min)?(?<seconds>\d+s)?(?<milionseconds>\d+ms)?
+
+
+
+
+
+
+
+
+sample:
+05-18 23:18:50.700 I/ActivityManager(  531): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.calendar =com.android.calendar/.AllInOneActivity u=0} from pid 810
+05-18 23:18:52.690 I/ActivityManager(  531): Displayed com.android.calendar/.AllInOneActivity: +1s605ms (total +2s63ms)
+
+
+05-18 23:18:50.350 I/ActivityManager(  531): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.deskclock cmp=com.android.deskclock/.DeskClock u=0} from pid 810
+05-18 23:18:52.690 I/ActivityManager(  531): Displayed com.android.deskclock/.DeskClock: +2s69ms
+
+
+05-18 23:18:57.270 I/ActivityManager(  531): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.calculator2 cmp=com.android.calculator2/.Calculator u=0} from pid 810
+05-18 23:18:58.320 I/ActivityManager(  531): Displayed com.android.calculator2/.Calculator: +813ms
+
+
+05-18 23:19:01.830 I/ActivityManager(  531): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.settings cmp=com.android.settings/.Settings u=0} from pid 810
+05-18 23:19:02.940 I/ActivityManager(  531): Displayed com.android.settings/.Settings: +965ms
+
+final regular expression:
+(?<datetime>\d{1,2}-\d{1,2}\s(\d{1,2}:){2}\d{1,2}.\d{1,3})\sI/ActivityManager(.*)(?<motion>START)(.*)cmp=(?<cmp>(\w+\.)*\w+/(\w+\.)*(\.)?\w+)
+(?<datetime>\d{1,2}-\d{1,2}\s(\d{1,2}:){2}\d{1,2}.\d{1,3})(.*)I/ActivityManager(.*)(?<motion>Displayed)\s(?<cmp>(\w+\.)*\w+/((\w+\.)*)?\.?\w+):\s\+((?<minutes>\d+)min)?((?<seconds>\d+)s)?((?<milliseconds>\d+)ms)?
+
+
+(?<TimeStamp>[\d-:\s\.]*)\sI/ActivityManager(.*)(?<AppMotion>START)(.*)cmp=(?<CMP>(\w+\.)*\w+/(\w+\.)*(\.)?\w+)
+(?<TimeStamp>[\d-:\s\.]*)(.*)I/ActivityManager(.*)(?<AppMotion>Displayed)\s(?<CMP>(\w+\.)*\w+/((\w+\.)*)?\.?\w+):\s\+((?<MinuteSpan>\d+)min)?((?<SecondSpan>\d+)s)?((?<MillisecondSpan>\d+)ms)?
+
+
+(?<TimeStamp>[\d-:\s\.]*)\sI/ActivityManager(.*)START(.*)cmp=(?<CMP>(\w+\.)*\w+/(\w+\.)*(\.)?\w+)

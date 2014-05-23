@@ -1,0 +1,7 @@
+(?<TimeStamp>[\d-:\s\.]*)\sI/ActivityManager(.*)START(.*)cmp=(?<CMP>(\w+\.)*\w+/(\w+\.)*(\.)?\w+)
+.)*(\.)?\w+)
+Span>\d+)min)?((?<SecondSpan>\d+)s)?((?<MillisecondSpan>\d+)ms)?
+
+n>\d+)ms)?
+
+ionseconds>\d+)ms)?

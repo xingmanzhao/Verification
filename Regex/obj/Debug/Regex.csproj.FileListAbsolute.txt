@@ -1,0 +1,15 @@
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\bin\Debug\Regex.exe.config
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\bin\Debug\Regex.exe
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\bin\Debug\Regex.pdb
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\MainWindow.baml
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\MainWindow.g.cs
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\App.g.cs
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex_MarkupCompile.cache
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex.g.resources
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex.Properties.Resources.resources
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex.csproj.GenerateResource.Cache
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex.exe
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex.pdb
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex_MarkupCompile.lref
+C:\Users\xingmzha\workspace\AOL\Verification\Regex\obj\Debug\Regex.csprojResolveAssemblyReference.cache

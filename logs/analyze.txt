@@ -1,0 +1,34 @@
+10-15 15:30:44.629 I/ActivityManager(  564): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.android.deskclock cmp=com.android.deskclock/.DeskClock u=0} from pid 797
+
+
+ActivityManager(  564): Displayed com.android.deskclock/.DeskClock: +543ms
+
+
+
+05-16 16:48:15.359 I/ActivityManager(  569): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.tencent.mm cmp=com.tencent.mm/.ui.LauncherUI u=0} from pid 793
+05-16 16:48:16.179 I/ActivityManager(  569): Displayed com.tencent.mm/.ui.LauncherUI: +577ms (total +1m7s755ms)
+
+
+05-16 16:48:22.439 I/ActivityManager(  569): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.mms cmp=com.android.mms/.ui.ConversationList u=0} from pid 793
+05-16 16:48:23.599 I/ActivityManager(  569): Displayed com.android.mms/.ui.ConversationList: +1s20ms
+1160 - 1020
+
+
+05-16 16:48:28.769 I/ActivityManager(  569): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.gallery3d cmp=com.android.gallery3d/com.android.camera.Camera u=0} from pid 793
+05-16 16:48:30.379 I/ActivityManager(  569): Displayed com.android.gallery3d/com.android.camera.Camera: +1s445ms
+1610 - 1445
+
+
+05-16 16:48:38.649 I/ActivityManager(  569): Start proc com.android.lunar for service com.android.lunar/.LunarService: pid=5126 uid=10050 gids={1028}
+05-16 16:48:39.449 I/ActivityManager(  569): Displayed com.android.calendar/.AllInOneActivity: +969ms
+800 - 969
+
+
+05-16 16:48:38.249 I/ActivityManager(  569): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 pkg=com.android.calendar cmp=com.android.calendar/.AllInOneActivity u=0} from pid 793
+05-16 16:48:39.449 I/ActivityManager(  569): Displayed com.android.calendar/.AllInOneActivity: +969ms
+
+05-16 16:48:16.179 I/ActivityManager(  569): Displayed com.tencent.mm/.ui.LauncherUI: +577ms (total +1m7s755ms)
+05-16 16:48:23.599 I/ActivityManager(  569): Displayed com.android.mms/.ui.ConversationList: +1s20ms
+05-16 16:48:30.379 I/ActivityManager(  569): Displayed com.android.gallery3d/com.android.camera.Camera: +1s445ms
+05-16 16:48:39.449 I/ActivityManager(  569): Displayed com.android.calendar/.AllInOneActivity: +969ms
+
